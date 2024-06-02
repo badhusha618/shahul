@@ -1,0 +1,64 @@
+.custom-div {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.3s;
+  }
+  
+  .custom-div .overlay {
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .custom-div:hover .overlay {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+.hover-zoom {
+    transition: transform 0.3s;
+  }
+  
+  .hover-zoom:hover {
+    transform: scale(1.1);
+  }
+  
+  /* custom.css */
+.bg-image {
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 470px;
+}
+
+.hover-opacity {
+  position: relative;
+  transition: opacity 0.3s;
+}
+
+.hover-opacity-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.hover-opacity:hover .hover-opacity-content {
+  opacity: 1;
+}
+
+.hover-bg-info:hover {
+  background-color: #17a2b8 !important;
+  border-color: #17a2b8 !important;
+}
