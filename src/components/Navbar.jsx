@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <nav className='navbar navbar-expand-lg navbar-dark bg-dark fixed-top'>
       <div className='container'>
-        <Link className='navbar-brand' to='home' smooth={true} duration={500}>BADHUSHA</Link>
+        <Link className='navbar-brand' to='home' smooth={true} duration={500}>HOME</Link>
         <button className='navbar-toggler' type='button' onClick={handleClick}>
           {!nav ? <FaBars /> : <FaTimes />}
         </button>

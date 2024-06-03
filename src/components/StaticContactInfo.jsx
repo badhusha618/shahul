@@ -15,13 +15,13 @@ const StaticContactInfo = () => {
           <p className="text-secondary py-2">Here are my contact details:</p>
         </div>
         <div></div>
-        <div className="bg-light text-dark p-3 rounded mb-3 mx-auto" style={{ width: '600px' }}>
+        <div className="col-12 bg-light text-dark p-3 rounded mb-3 custom-left-border">
           <p>Name: Shahul Hameed Badhusha</p>
         </div>
-        <div className="bg-light text-dark p-3 rounded mb-3 mx-auto" style={{ width: '600px' }}>
+        <div className="col-12 bg-light text-dark p-3 rounded mb-3 custom-left-border">
           <p>Email: officialbadhusha@gmail.com</p>
         </div>
-        <div className="bg-light text-dark p-3 rounded mx-auto" style={{ width: '600px' }}>
+        <div className="col-12 bg-light text-dark p-3 rounded mb-3 custom-left-border">
           <p>Message: Feel free to reach out to me for collaboration or inquiries!</p>
         </div>
       </div>

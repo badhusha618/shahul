@@ -62,3 +62,15 @@
   background-color: #17a2b8 !important;
   border-color: #17a2b8 !important;
 }
+
+/* .custom-left-border {
+  border-left: 225px solid #000; 
+} */
+.custom-hover {
+  margin-left: -100px;
+  transition: margin-left 0.3s ease;
+}
+
+.custom-hover:hover {
+  margin-left: -10px;
+}

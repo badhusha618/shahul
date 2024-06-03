@@ -4,11 +4,13 @@ import StaticContactInfo from './components/StaticContactInfo';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Skills from './components/Skills';
+import SocialLinks from './components/SocialLinks';
 
 function App() {
   return (
     <div >
       <Navbar />
+      <SocialLinks />
       <Home />
       <About />
       <Skills />
